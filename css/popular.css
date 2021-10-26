@@ -1,0 +1,91 @@
+.destination-1 {
+    background-image: url(../img/destination/italy.png);
+    background-size: cover;
+    grid-area: pop1;
+}
+.destination-2 {
+    background-image: url(../img/destination/brazil.png);
+    background-size: cover;
+    grid-area: pop2;
+}
+.destination-3 {
+    background-image: url(../img/destination/america.png);
+    background-size: cover;
+    grid-area: pop3;
+}
+.destination-4 {
+    background-image: url(../img/destination/nepal.png);
+    background-size: cover;
+    grid-area: pop4;
+}
+.destination-5 {
+    background-image: url(../img/destination/maldives.png);
+    background-size: cover;
+    grid-area: pop5;
+}
+.destination-6 {
+    background-image: url(../img/destination/indonesia.png);
+    background-size: cover;
+    grid-area: pop6;
+}
+
+.destinations {
+    float: right;
+}
+
+#grid-container-2 {
+    display: grid;
+    grid-template-areas: 
+      'pop1 pop2 pop3'
+      'pop4 pop5 pop6';
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 300px 300px;
+    row-gap: 30px;
+    column-gap: 40px;
+    justify-content: space-evenly;
+
+  }
+
+
+  .places-1 {
+    background-image: url(../img/place/california.png);
+    background-size: cover;
+    grid-area: place1;
+}
+.places-2 {
+    background-image: url(../img/place/korola_megna.png);
+    background-size: cover;
+    grid-area: place2;
+}
+.places-3 {
+    background-image: url(../img/place/london.png);
+    background-size: cover;
+    grid-area: place3;
+}
+.places-4 {
+    background-image: url(../img/place/miami.png);
+    background-size: cover;
+    grid-area: place4;
+}
+.places-5 {
+    background-image: url(../img/place/california_2.png);
+    background-size: cover;
+    grid-area: place5;
+}
+.places-6 {
+    background-image: url(../img/place/iceland.png);
+    background-size: cover;
+    grid-area: place6;
+}
+
+#grid-container-3 {
+    display: grid;
+    grid-template-areas: 
+      'place1 place2 place3'
+      'place4 place5 place6';
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 200px 200px;
+    row-gap: 30px;
+    column-gap: 40px;
+    justify-content: space-evenly;
+  }

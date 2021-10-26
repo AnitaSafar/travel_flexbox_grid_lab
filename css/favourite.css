@@ -1,0 +1,33 @@
+.favourite-bg-1 {
+    background-image: url(../img/favourites/indonesia.png);
+    background-size: cover;
+    grid-area: fav1;
+  
+  }
+  
+  .favourite-bg-2 {
+    background-image: url(../img/favourites/australia.png);
+    grid-area: fav2;
+    background-size: cover;
+  
+  }
+  
+  .favourite-bg-3 {
+    background-image: url(../img/favourites/switzerland.png);
+    grid-area: fav3;
+    background-size: cover;
+  
+  }
+  
+  #grid-container-1 {
+    display: grid;
+    grid-template-areas: 
+      'fav1 fav2 fav3';
+    grid-template-columns: 25% 25% 25%;
+    gap: 60px;
+    justify-content: space-evenly;
+  }
+
+  .main {
+    margin: 20px
+  }
